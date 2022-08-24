@@ -1,0 +1,88 @@
+* {
+   font-size: 60%;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+    min-height: 100vh;
+}
+
+/*header style*/
+header {
+    background-color: lightblue;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.my-header {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h1 {
+font-weight: bold;
+font-size: 35px;
+margin: 2rem auto;
+padding-left: 10px;
+}
+
+#search-city {
+    font-size: 20px;
+    width: 100%;
+    border: 1px black;
+    height: 4.5rem;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#search-btn {
+color: black;
+background-color: white;
+margin-bottom: 20px;
+} 
+
+#search-btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn {
+    background-color: gray;
+    font-size: 20px;
+    width: 100%;
+    color: black;
+    margin-top: 5px;
+    padding: 5px 0;
+}
+
+
+.spacer {
+    justify-content: space-around;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    width: 20%;
+    margin-top: 1%;
+    margin-right: auto;
+}
+
+.column2 {
+    width: 60%;
+    margin-top: 1%;
+    margin-right: auto;
+}
+
